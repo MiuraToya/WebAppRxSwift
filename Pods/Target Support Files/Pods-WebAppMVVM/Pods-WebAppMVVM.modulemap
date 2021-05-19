@@ -1,0 +1,6 @@
+framework module Pods_WebAppMVVM {
+  umbrella header "Pods-WebAppMVVM-umbrella.h"
+
+  export *
+  module * { export * }
+}

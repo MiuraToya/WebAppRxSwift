@@ -13,7 +13,7 @@ import RxOptional
 import RxWebKit
 
 final class WebViewController: UIViewController {
-
+    
     @IBOutlet private weak var progressView: UIProgressView!
     @IBOutlet private weak var webView: WKWebView!
     
@@ -23,7 +23,7 @@ final class WebViewController: UIViewController {
         super.viewDidLoad()
         self.setupWebView()
     }
-
+    
     private func setupWebView() {
         // 宣言的に挙動を記述
         // オブザーバー(イベントを検知するもの)を定義
@@ -59,6 +59,6 @@ final class WebViewController: UIViewController {
         let request = URLRequest(url: url)
         webView.load(request)
     }
-
+    
 }
 
